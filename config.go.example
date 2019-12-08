@@ -1,0 +1,15 @@
+package main
+
+const (
+	// SubscriptionVerifyToken - chứa mã xác minh mà chúng ta đã khai báo khi thiết lập webhook
+	cfgSubscriptionVerifyToken = "GoBot"
+
+	// FBMessageURL - địa chỉ gửi phản hồi
+	cfgFBMessageURL = "https://graph.facebook.com/v5.0/me/messages"
+
+	// FBMessengerProfileURL - địa chỉ để đăng ký Màn hình chào và Menu
+	cfgFBMessengerProfileURL = "https://graph.facebook.com/v5.0/me/messenger_profile"
+
+    // PageToken       = "<Mã nhận được ở bước tạo mã khi tạo Facebook App>"
+	cfgPageToken = "<Mã nhận được ở bước tạo mã khi tạo Facebook App>"
+)

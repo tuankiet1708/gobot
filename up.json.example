@@ -1,0 +1,9 @@
+{
+    "name": "gobot",
+    "profile": "gobot",
+    "regions": ["us-east-1"],
+    "lambda": {
+        "role": "arn:aws:iam::xxx:role/GoBot",
+        "memory": 128
+    }
+}
